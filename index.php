@@ -17,7 +17,7 @@
 	<?php } ?>
     <?php the_posts_pagination(); ?>
 <?php } else { ?>
-  Sorry you do not have any posts.
+  <p><?php _e('Sorry, no posts matched your criteria.', '_themename'); ?></p>
 <?php }; ?>
 
 <?php get_footer(); ?>
