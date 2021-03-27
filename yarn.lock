@@ -4163,7 +4163,7 @@ gulp-uglifycss@^1.1.0:
     uglifycss "^0.0.25"
     vinyl "^2.1.0"
 
-gulp-zip@^5.0.2:
+gulp-zip@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/gulp-zip/-/gulp-zip-5.1.0.tgz#38cc1d4c61bc2ab06b452ce463cbe2adc52b935e"
   integrity sha512-XZr/y91IliK/SpR74g3TkZejGkGEmK7CSDjSghT1jXshgO+dFvpLIz9w9fpuwkew6i7k4F+G24TubNgq1ISzEw==
