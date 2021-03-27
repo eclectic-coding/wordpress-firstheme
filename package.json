@@ -32,7 +32,7 @@
     "gulp-uglifycss": "^1.1.0",
     "gulp-zip": "^5.1.0",
     "vinyl-named": "^1.1.0",
-    "webpack-stream": "^6.1.1",
+    "webpack-stream": "^6.1.2",
     "yargs": "^16.2.0"
   },
   "dependencies": {
