@@ -1,4 +1,4 @@
-// import $ from "jquery"
-import "jquery"
+import $ from "jquery"
 
 import "./components/slider";
+import "./components/navigation";
