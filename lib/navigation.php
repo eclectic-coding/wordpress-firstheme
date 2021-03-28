@@ -15,6 +15,28 @@ function _themename_register_menus() {
 	) );
 }
 
+add_filter( 'nav_menu_link_attributes', '_themename_aria_hasdropdown', 10, 3 );
+/**
+ * Description of expected behavior
+ *
+ * @param $atts
+ * @param $item
+ * @param $args
+ *
+ * @return void
+ *
+ * @since 1.0.0
+ */
+function _themename_aria_hasdropdown($atts, $item, $args) {
+	if($args->theme_location == 'main-menu') {
+		if(in_array('menu-item-has-children', $item->classes)) {
+			$atts['aria-haspopup'] = 'true';
+			$atts['aria-expanded'] = 'false';
+		}
+	}
+	return $atts;
+}
+
 /**
  * Add menu down buttons if the menu has children
  *

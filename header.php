@@ -2,12 +2,12 @@
 <html <?php language_attributes(); ?>>
   <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	  <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
+    <a class="u-skip-link" href="#content"><?php esc_attr_e( 'Skip to content', '_themename' ); ?></a>
     <header role="banner" class="u-margin-bottom-40">
       <div class="c-header">
         <div class="o-container u-flex u-align-justify u-align-middle">
