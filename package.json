@@ -32,12 +32,12 @@
     "gulp-uglifycss": "^1.1.0",
     "gulp-zip": "^5.1.0",
     "vinyl-named": "^1.1.0",
-    "webpack-stream": "^6.1.1",
+    "webpack-stream": "^6.1.2",
     "yargs": "^16.2.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.2",
-    "jquery": "^3.5.1",
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "jquery": "^3.6.0",
     "normalize.css": "^8.0.1",
     "slick-carousel": "^1.8.1"
   }
