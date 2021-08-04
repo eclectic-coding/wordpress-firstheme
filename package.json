@@ -36,7 +36,7 @@
     "yargs": "^17.0.1"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "jquery": "^3.6.0",
     "normalize.css": "^8.0.1",
     "slick-carousel": "^1.8.1"
